@@ -3,4 +3,5 @@ def my_collect(argument)
   while i < argument.length
     yield argument[i]
     i += 1
+  end
 end
